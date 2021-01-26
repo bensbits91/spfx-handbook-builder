@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "handbook-builder-client-side-solution",
+    "id": "8a97b08e-d050-4c10-a651-a09b157a69a6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/handbook-builder.sppkg"
+  }
+}

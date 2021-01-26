@@ -1,0 +1,39 @@
+$navy: #1e3b5a;
+$mint: #34bebd;
+$green: #34be78;
+$yellow: #ffc658;
+$orange: #ff7300;
+$red: #be3435;
+$pink: #be347a;
+
+$theme_color_1: $mint;
+$theme_color_2: $navy;
+
+.quizWrap {
+  padding: 1px;
+}
+
+.questionHead {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.quizButtonWrap *,
+.quizRemoveButtonWrap * {
+  color: $mint;
+}
+
+.quizRemoveButtonWrap {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+}
+
+.questionWrap {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px 2px #ccc;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+}

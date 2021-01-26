@@ -1,0 +1,105 @@
+#workbenchPageContent,
+.CanvasZone {
+  max-width: unset;
+  border: none;
+}
+
+/* strectch content area to touch sides */
+#workbenchPageContent {
+  left: 0;
+  right: 0;
+}
+#workbenchPageContent > div > div > div,
+.CanvasZone,
+.CanvasSection-col {
+  /* overflow: hidden; */
+  padding: 0 !important;
+}
+
+.darkBody #workbenchCommandBar *,
+.darkBody #spPageChromeAppDiv {
+  background-color: #333;
+  color: #888;
+}
+
+.darkBody .CanvasZoneContainer {
+	background-color: #333;
+}
+
+/* .ms-ScrollablePane--contentContainer {
+  padding: 0 100px;
+  overflow-x: hidden;
+} */
+
+.verticalPivot.nuTabs > div {
+  float: left;
+}
+.verticalPivot.nuTabs .ms-Pivot-link {
+  display: block;
+}
+.verticalPivot.nuTabs > div > div {
+  margin-top: 50px;
+}
+
+.sectionWrap {
+  margin-bottom: 50px;
+  margin-right: 100px;
+  width: 600px;
+}
+.fieldWrap {
+  margin-bottom: 20px;
+}
+.fieldWrap .ms-Checkbox {
+  margin: 10px;
+}
+
+/*  */
+
+.sectionWrap.cols-2 .fieldWrap {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.sectionWrap.cols-2 .fieldWrap.Text:nth-child(2n + 1) > div {
+  margin-right: 20px;
+}
+.sectionWrap.cols-2 .fieldWrap.Text:nth-child(2n) > div {
+  margin-left: 20px;
+}
+
+.nuTabs .ms-Pivot .ms-Button.new-tab {
+  background-color: #34bebd;
+}
+.nuTabs .ms-Pivot .ms-Button {
+  -webkit-transition: background-color 3s ease-out;
+  -moz-transition: background-color 3s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 3s ease-out;
+}
+
+/*  */
+
+/* .sliderWrap .fieldWrap .ms-Checkbox * {
+  color: #eee;
+} */
+.sliderWrap .awssld__content > div {
+  max-width: calc(100% - 300px);
+  /* max-width: 70%; */
+}
+
+.sliderWrap .footer-inner .ms-Button i {
+  color: #ffc658;
+}
+.sliderWrap .footer-inner .ms-Button-label {
+  color: #ccc;
+}
+.sliderWrap .footer-inner .ms-Button:hover * {
+  color: #be347a;
+}
+
+.ql-editor {
+  background-color: #222;
+  color: #eee;
+  min-height: 150px;
+  resize: vertical;
+}

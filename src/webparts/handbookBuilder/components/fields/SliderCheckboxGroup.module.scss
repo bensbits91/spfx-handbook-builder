@@ -1,0 +1,68 @@
+$navy: #1e3b5a;
+$mint: #34bebd;
+$green: #34be78;
+$yellow: #ffc658;
+$orange: #ff7300;
+$red: #be3435;
+$pink: #be347a;
+
+$theme_color_1: $mint;
+$theme_color_2: $navy;
+$theme_color_3: $yellow;
+
+.CheckboxButtons * {
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    -o-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+}
+
+// .buttonWrap {
+//     margin-top: 30px;
+
+//     .buttonCustom {
+//         background-color: $theme_color_2;
+//         height: 36px;
+//         margin-right: 10px;
+//         -webkit-transition: background-color 300ms ease-out;
+//         -moz-transition: background-color 300ms ease-out;
+//         -o-transition: background-color 300ms ease-out;
+//         transition: background-color 300ms ease-out;
+
+//         &:last-child {
+//             margin-right: 0;
+//         }
+//         &:hover {
+//             background-color: rgba($theme_color_3, 0.7);
+//             color: $theme_color_2;
+//         }
+//         &:disabled {
+//             background-color: rgba($theme_color_2, 0.7);
+//         }
+//     }
+// }
+
+// .buttonWrap {
+//     margin-top: 30px;
+// }
+
+// .buttonCustomSlider {
+//     background-color: $theme_color_2;
+//     height: 36px;
+//     margin-right: 10px;
+//     -webkit-transition: background-color 300ms ease-out;
+//     -moz-transition: background-color 300ms ease-out;
+//     -o-transition: background-color 300ms ease-out;
+//     transition: background-color 300ms ease-out;
+
+//     &:last-child {
+//         margin-right: 0;
+//     }
+//     &:hover {
+//         background-color: rgba($theme_color_3, 0.7);
+//         color: $theme_color_2;
+//     }
+//     &:disabled {
+//         background-color: rgba($theme_color_2, 0.7);
+//     }
+// }

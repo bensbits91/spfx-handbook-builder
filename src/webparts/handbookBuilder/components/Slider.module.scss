@@ -1,0 +1,87 @@
+// @import "~react-awesome-slider/dist/styles.css";
+
+$navy: #1e3b5a;
+$mint: #34bebd;
+$green: #34be78;
+$yellow: #ffc658;
+$orange: #ff7300;
+$red: #be3435;
+$pink: #be347a;
+
+$theme_color_1: $mint;
+$theme_color_2: $navy;
+
+.slideTop {
+  max-width: 700px;
+}
+.slideTitle {
+  color: $mint;
+  font-size: 70px;
+  font-weight: 100;
+}
+.slideDescription {
+  color: #888;
+  font-size: 50px;
+  font-weight: 100;
+}
+.slideBodyWrap {
+  overflow-y: auto;
+  // padding-right: 50px;
+}
+.slideBody {
+  color: #eee;
+  font-size: 18px;
+  // font-size: 27px;
+  font-weight: 100;
+  margin-right: 100px;
+  margin-top: 20px;
+  max-height: 580px;
+  // overflow-y: auto;
+  // padding-right: 50px;
+}
+
+.sliderEditButtonWrap {
+  color: $mint;
+  left: 20px;
+  position: absolute;
+  top: 20px;
+}
+
+.ChoiceButtons * {
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  -o-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+}
+
+.buttonWrap {
+  margin-top: 30px;
+
+  .buttonCustom {
+    background-color: $theme_color_2;
+    height: 36px;
+    margin-right: 10px;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    -o-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      background-color: rgba($orange, 0.7);
+    }
+    &:disabled {
+      background-color: rgba($theme_color_2, 0.7);
+    }
+  }
+}
+
+.footerWrap {
+  position: absolute;
+  bottom: 125px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
